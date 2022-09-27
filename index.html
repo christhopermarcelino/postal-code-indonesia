@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pencarian Kode Pos Indonesia</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="section-main">
+        <h1>Pencarian Kode Pos di Indonesia</h1>
+
+        <div class="input-form">
+          <label for="province">Pilih provinsi</label>
+          <select name="province" id="province">
+            <option value="">-</option>
+          </select>
+        </div>
+
+        <div class="input-form">
+          <label for="city">Pilih kota/kabupaten</label>
+          <select name="city" id="city">
+            <option value="">-</option>
+          </select>
+        </div>
+
+        <div class="input-form">
+          <label for="district">Pilih kecamatan</label>
+          <select name="district" id="district">
+            <option value="">-</option>
+          </select>
+        </div>
+
+        <div class="input-form">
+          <label for="subdistrict">Pilih kelurahan</label>
+          <select name="subdistrict" id="subdistrict">
+            <option value="">-</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="section-result">
+        <h4 id="postal-code">-</h4>
+        <p id="detail-address">-</p>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
